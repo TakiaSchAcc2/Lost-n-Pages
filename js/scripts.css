@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefae0; /* Soft yellow background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #606c38; /* Olive green header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #283618; /* Dark green */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #a3b18c; /* Light olive color on hover */
+}
+
+/* Active link styling */
+nav a.active {
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Styling the discussion cards */
+.discussion-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Buttons styling */
+.btn-primary {
+    background-color: #283618;
+    border-color: #283618;
+}
+
+.btn-primary:hover {
+    background-color: #606c38; /* Change color on hover */
+}
+
+/* Responsive Design: Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    nav a {
+        display: block; /* Stack links vertically */
+        margin-bottom: 10px;
+    }
+
+    .discussion-card {
+        margin: 10px 0;
+    }
+}
+
+/* Custom animation for the carousel images */
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+
+/* Footer icons */
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-icons a {
+    font-size: 20px;
+    color: white;
+}
+
+footer .social-icons a:hover {
+    color: #a3b18c;
+}
